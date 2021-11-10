@@ -1,3 +1,11 @@
+$ColorText: #FBF7F3;
+
+@mixin Font-FamilyStyleWeight {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
 .first-title {
     display: flex;
     flex-direction: column;
@@ -7,34 +15,33 @@
     background: url("../images/background-first-title.jpg") no-repeat;    
     background-size: cover; /*задает размер фона такой, чтобы по высоте и ширине поместился в браузер*/
     background-position: center;
+
+    .first-title__title {
+        margin-top: 80px;
+        margin-bottom: 25px;        
+        @include Font-FamilyStyleWeight();        
+        font-size: 80px;
+        line-height: 90px;
+        text-align: center;
+        letter-spacing: 2.7px;
+        color: $ColorText;
+    }
+    .first-title__subtitle {        
+        @include Font-FamilyStyleWeight();
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        color: $ColorText;
+    }
+    .first-title__button {
+        margin-top: 25px;
+        margin-bottom: 80px;
+        padding: 10px 25px;
+        color: $ColorText;
+        background-color: #7140EB;
+        border-radius: 9999px;
+        text-decoration: unset; 
+    }
 }
-.first-title__title {
-    margin-top: 80px;
-    margin-bottom: 25px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 80px;
-    line-height: 90px;
-    text-align: center;
-    letter-spacing: 2.7px;
-    color: #FBF7F3;
-}
-.first-title__subtitle {    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 18px;
-    text-align: center;
-    color: #FBF7F3;
-}
-.first-title__button {
-    margin-top: 25px;
-    margin-bottom: 80px;
-    padding: 10px 25px;
-    color: #FBF7F3;
-    background-color: #7140EB;
-    border-radius: 9999px;
-    text-decoration: unset; 
-}
+
+

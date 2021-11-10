@@ -1,3 +1,11 @@
+$ColorText: #FBF7F3;
+
+@mixin Font-FamilyStyleWeight {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
 .second-title {
     display: flex;
     flex-direction: column;
@@ -7,28 +15,27 @@
     background: url("../images/background-second-title.jpg") no-repeat;    
     background-size: cover;   
     background-position: bottom;
+
+    .second-title__title {
+        margin-top: 80px;
+        margin-bottom: 0;    
+        padding-right: 50px;        
+        @include Font-FamilyStyleWeight(); 
+        font-size: 93px;
+        line-height: 112px;
+        text-align: right;
+        letter-spacing: 5.625px;
+        color: $ColorText;
+    }
+
+    .second-title__subtitle {
+        padding-right: 50px;
+        padding-bottom: 570px;        
+        @include Font-FamilyStyleWeight(); 
+        font-size: 29px;
+        line-height: 28px;
+        text-align: right;
+        color: $ColorText;
+    }
 }
-.second-title__title {
-    margin-top: 80px;
-    margin-bottom: 0;    
-    padding-right: 50px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 93px;
-    line-height: 112px;
-    text-align: right;
-    letter-spacing: 5.625px;
-    color: #FBF7F3;
-}
-.second-title__subtitle {
-    padding-right: 50px;
-    padding-bottom: 570px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 29px;
-    line-height: 28px;
-    text-align: right;
-    color: #FBF7F3;
-}
+

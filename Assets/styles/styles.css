@@ -48,7 +48,7 @@ body {
   margin: 15px 25px;
 }
 
-.header__menu {
+.header .header__menu {
   max-width: 660px;
   width: 100%;
   padding: 0 25px;
@@ -69,7 +69,7 @@ body {
           align-items: center;
 }
 
-.menu__item, .menu__button {
+.header .header__menu .menu__item, .header .header__menu .menu__button {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -79,12 +79,12 @@ body {
   text-decoration: unset;
 }
 
-.menu__item:hover {
+.header .header__menu .menu__item:hover {
   /*подключается при наведении мышки*/
   color: #49464F;
 }
 
-.menu__button {
+.header .header__menu .menu__button {
   padding: 10px 25px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -114,7 +114,7 @@ body {
   background-position: center;
 }
 
-.first-title__title {
+.first-title .first-title__title {
   margin-top: 80px;
   margin-bottom: 25px;
   font-family: Roboto;
@@ -127,7 +127,7 @@ body {
   color: #FBF7F3;
 }
 
-.first-title__subtitle {
+.first-title .first-title__subtitle {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -137,7 +137,7 @@ body {
   color: #FBF7F3;
 }
 
-.first-title__button {
+.first-title .first-title__button {
   margin-top: 25px;
   margin-bottom: 80px;
   padding: 10px 25px;
@@ -166,7 +166,7 @@ body {
   background-position: bottom;
 }
 
-.second-title__title {
+.second-title .second-title__title {
   margin-top: 80px;
   margin-bottom: 0;
   padding-right: 50px;
@@ -180,7 +180,7 @@ body {
   color: #FBF7F3;
 }
 
-.second-title__subtitle {
+.second-title .second-title__subtitle {
   padding-right: 50px;
   padding-bottom: 570px;
   font-family: Roboto;
@@ -209,7 +209,7 @@ body {
           align-items: center;
 }
 
-.third-section__box-one {
+.third-section .third-section__box-one {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -225,7 +225,7 @@ body {
           align-items: center;
 }
 
-.box-one__title {
+.third-section .third-section__box-one .box-one__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -238,7 +238,7 @@ body {
           justify-content: center;
 }
 
-.title {
+.third-section .third-section__box-one .box-one__title .title {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -248,7 +248,7 @@ body {
   color: #49464F;
 }
 
-.subtitle {
+.third-section .third-section__box-one .box-one__title .subtitle {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -258,12 +258,12 @@ body {
   color: #8172A2;
 }
 
-.box-one__img {
+.third-section .third-section__box-one .box-one__img {
   width: 440px;
   height: 1010px;
 }
 
-.box-one__list {
+.third-section .third-section__box-one .box-one__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -276,7 +276,7 @@ body {
           justify-content: start;
 }
 
-.name-list {
+.third-section .third-section__box-one .box-one__list .name-list {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -285,7 +285,7 @@ body {
   color: #49464F;
 }
 
-.list li {
+.third-section .third-section__box-one .box-one__list .list li {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -297,7 +297,7 @@ body {
   /*выравнивает текст с точкой*/
 }
 
-.list li:before {
+.third-section .third-section__box-one .box-one__list .list li:before {
   content: "\2022";
   color: #7140EB;
   font-weight: bold;
@@ -307,7 +307,7 @@ body {
   padding-right: 15px;
 }
 
-.third-section__box-two {
+.third-section .third-section__box-two {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -320,7 +320,7 @@ body {
           align-items: center;
 }
 
-.box-two__title {
+.third-section .third-section__box-two .box-two__title {
   margin-top: 0;
   margin-bottom: 20px;
   font-family: Roboto;
@@ -333,7 +333,7 @@ body {
   color: #49464F;
 }
 
-.box-two__subtitle {
+.third-section .third-section__box-two .box-two__subtitle {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -343,7 +343,7 @@ body {
   color: #8172A2;
 }
 
-.box-two__img {
+.third-section .third-section__box-two .box-two__img {
   max-width: 1150px;
 }
 
@@ -364,7 +364,7 @@ body {
   margin-top: 55px;
 }
 
-.block-benefits__item {
+.block-benefits .block-benefits__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -380,7 +380,7 @@ body {
           justify-content: center;
 }
 
-.item__title {
+.block-benefits .block-benefits__item .item__title {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -390,11 +390,11 @@ body {
   margin-bottom: 10px;
 }
 
-.item__img {
+.block-benefits .block-benefits__item .item__img {
   max-width: 320px;
 }
 
-.item__subtitle {
+.block-benefits .block-benefits__item .item__subtitle {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -433,7 +433,7 @@ body {
   background-size: cover;
 }
 
-.services-block__title {
+.services-block .services-block__title {
   margin-top: 190px;
   margin-left: 180px;
   margin-bottom: 0;
@@ -446,7 +446,7 @@ body {
   color: #49464F;
 }
 
-.services-block__subtitle {
+.services-block .services-block__subtitle {
   margin-top: 40px;
   margin-left: 180px;
   font-family: Roboto;
@@ -457,7 +457,7 @@ body {
   color: #8172A2;
 }
 
-.services-block__box-photo {
+.services-block .services-block__box-photo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -472,16 +472,16 @@ body {
   margin-left: 180px;
 }
 
-.box-photo__item {
+.services-block .services-block__box-photo .box-photo__item {
   margin-right: 65px;
 }
 
-.box-photo__img {
+.services-block .services-block__box-photo .box-photo__item .box-photo__img {
   max-width: 300px;
   margin-bottom: 80px;
 }
 
-.box-photo__subtitle {
+.services-block .services-block__box-photo .box-photo__item .box-photo__subtitle {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -509,11 +509,11 @@ body {
   margin-bottom: 165px;
 }
 
-.footer__img {
+.footer .footer__img {
   max-width: 360px;
 }
 
-.text__title {
+.footer .text__title {
   margin-bottom: 35px;
   font-family: Roboto;
   font-style: normal;
@@ -525,7 +525,7 @@ body {
   color: #49464F;
 }
 
-.text__subtitle {
+.footer .text__subtitle {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;

@@ -1,35 +1,40 @@
+@mixin Font-FamilyStyleWeight {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
 .block-benefits {
     display: flex;
     flex-direction: row;
     justify-content: space-around;    
     align-items: flex-start;
     margin-top: 55px;
-}
-.block-benefits__item { 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; 
-    justify-content: center;      
-}
-.item__title {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 36px;
-    color: #2E2C34;
-    margin-bottom: 10px;    
-}
-.item__img {
-    max-width: 320px;    
-}
-.item__subtitle {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 23px;
-    color: #49464F;
-    margin-top: 20px;
-    margin-bottom: 160px;
+
+    .block-benefits__item { 
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+        justify-content: center;  
+        
+        .item__title {
+            @include Font-FamilyStyleWeight();
+            font-size: 30px;
+            line-height: 36px;
+            color: #2E2C34;
+            margin-bottom: 10px;    
+        }
+        .item__img {
+            max-width: 320px;    
+        }
+        .item__subtitle {
+            @include Font-FamilyStyleWeight();
+            font-size: 20px;
+            line-height: 23px;
+            color: #49464F;
+            margin-top: 20px;
+            margin-bottom: 160px;
+        }
+    }
+    
 }
