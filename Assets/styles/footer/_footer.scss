@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 165px;
+    margin-bottom: 165px;
+}
+.footer__img {
+    max-width: 360px;    
+}
+.text__title {
+    margin-bottom: 35px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 71px;
+    line-height: 81px;
+    text-align: center;
+    letter-spacing: 2.7px;
+    color: #49464F;
+}
+.text__subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;   
+    text-align: center;
+    color: #49464F;
+}
