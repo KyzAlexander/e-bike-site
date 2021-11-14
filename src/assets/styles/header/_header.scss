@@ -6,16 +6,20 @@
     justify-content: space-between;
     align-items: center;    
 }
+$color-hover: #49464F;
 
 .header {    
     @include FlexHeader();    
     margin: 15px 25px;
     
     .header__menu {
+        $color-background: #FFFFFF;
+        $color-text-menu: #8D867C;
+
         max-width: 660px;
         width: 100%;    
         padding: 0 25px;
-        background: #FFFFFF;
+        background: $color-background;
         border-radius: 9999px;
         @include FlexHeader();
 
@@ -23,18 +27,18 @@
             @include Font-FamilyStyleWeight();
             font-size: 16px;
             line-height: 19px;
-            color: #8D867C;
+            color: $color-text-menu;
             text-decoration: unset; 
         }
         .menu__item:hover { /*подключается при наведении мышки*/
-            color: #49464F;
+            color: $color-hover;
         }
         .menu__button {
             padding: 10px 25px;
             margin-top: 10px;
             margin-bottom: 10px;
-            color: #FBF7F3;
-            background-color: #7140EB;
+            color: $color-text-button;
+            background-color: $color-background-button;
             border-radius: 9999px;
         }           
     }    

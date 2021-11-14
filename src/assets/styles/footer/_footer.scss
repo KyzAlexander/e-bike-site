@@ -17,13 +17,13 @@
         line-height: 81px;
         text-align: center;
         letter-spacing: 2.7px;
-        color: #49464F;
+        color: $color-title-subtitle;
     }
     .text__subtitle {
         @include Font-FamilyStyleWeight();
         font-size: 20px;
         line-height: 22px;   
         text-align: center;
-        color: #49464F;
+        color: $color-title-subtitle;
     }
 }

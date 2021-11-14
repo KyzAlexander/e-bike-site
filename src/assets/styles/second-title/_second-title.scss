@@ -1,4 +1,4 @@
-$ColorText: #FBF7F3;
+$color-text: #FBF7F3;
 
 .second-title {
     display: flex;
@@ -19,7 +19,7 @@ $ColorText: #FBF7F3;
         line-height: 112px;
         text-align: right;
         letter-spacing: 5.625px;
-        color: $ColorText;
+        color: $color-text;
     }
 
     .second-title__subtitle {

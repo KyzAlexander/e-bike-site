@@ -1,6 +1,7 @@
-$ColorText: #FBF7F3;
 
 .first-title {
+    $color-text: #FBF7F3;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,21 +19,21 @@ $ColorText: #FBF7F3;
         line-height: 90px;
         text-align: center;
         letter-spacing: 2.7px;
-        color: $ColorText;
+        color: $color-text;
     }
     .first-title__subtitle {        
         @include Font-FamilyStyleWeight();
         font-size: 16px;
         line-height: 18px;
         text-align: center;
-        color: $ColorText;
+        color: $color-text;
     }
     .first-title__button {
         margin-top: 25px;
         margin-bottom: 80px;
         padding: 10px 25px;
-        color: $ColorText;
-        background-color: #7140EB;
+        color: $color-text-button;
+        background-color: $color-background-button;
         border-radius: 9999px;
         text-decoration: unset; 
     }

@@ -1,5 +1,7 @@
 
 .block-benefits {
+    $colot-item-title: #2E2C34;
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;    
@@ -16,7 +18,7 @@
             @include Font-FamilyStyleWeight();
             font-size: 30px;
             line-height: 36px;
-            color: #2E2C34;
+            color: $colot-item-title;
             margin-bottom: 10px;    
         }
         .item__img {
@@ -26,7 +28,7 @@
             @include Font-FamilyStyleWeight();
             font-size: 20px;
             line-height: 23px;
-            color: #49464F;
+            color: $color-title-subtitle;
             margin-top: 20px;
             margin-bottom: 160px;
         }
