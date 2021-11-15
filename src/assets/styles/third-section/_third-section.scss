@@ -9,14 +9,14 @@ $color-circle: #7140EB;
     flex-direction: column;
     align-items: center;
     
-    .third-section__box-one {    
+    &__box-one {    
         width: 100%;      
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
     
-        .box-one__title {    
+        &__title {    
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -37,11 +37,11 @@ $color-circle: #7140EB;
             }
         }
         
-        .box-one__img {
+        &__img {
             width: 440px;
             height: 1010px;
         }
-        .box-one__list {
+        &__list {
             display: flex;
             flex-direction: column;
             justify-content: start;
@@ -78,7 +78,7 @@ $color-circle: #7140EB;
         flex-direction: column;
         align-items: center;
     
-        .box-two__title {
+        &__title {
             margin-top: 0;
             margin-bottom: 20px;            
             @include Font-FamilyStyleWeight();
@@ -88,14 +88,14 @@ $color-circle: #7140EB;
             letter-spacing: 2.7px;
             color: $color-title-subtitle;
         }
-        .box-two__subtitle {            
+        &__subtitle {            
             @include Font-FamilyStyleWeight();
             font-size: 20px;
             line-height: 23px;
             text-align: center;
             color: $colr-subt-li;
         }
-        .box-two__img {
+        &__img {
             max-width: 1150px;        
         }
     }

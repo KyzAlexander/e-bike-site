@@ -12,7 +12,7 @@ $color-hover: #49464F;
     @include FlexHeader();    
     margin: 15px 25px;
     
-    .header__menu {
+    &__menu {
         $color-background: #FFFFFF;
         $color-text-menu: #8D867C;
 
@@ -23,17 +23,17 @@ $color-hover: #49464F;
         border-radius: 9999px;
         @include FlexHeader();
 
-        .menu__item, .menu__button {   
+        &__item, &__button {   
             @include Font-FamilyStyleWeight();
             font-size: 16px;
             line-height: 19px;
             color: $color-text-menu;
             text-decoration: unset; 
         }
-        .menu__item:hover { /*подключается при наведении мышки*/
+        &__item:hover { /*подключается при наведении мышки*/
             color: $color-hover;
         }
-        .menu__button {
+        &__button {
             padding: 10px 25px;
             margin-top: 10px;
             margin-bottom: 10px;

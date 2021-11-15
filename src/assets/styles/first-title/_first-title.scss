@@ -11,7 +11,7 @@
     background-size: cover; /*задает размер фона такой, чтобы по высоте и ширине поместился в браузер*/
     background-position: center;
 
-    .first-title__title {
+    &__title {
         margin-top: 80px;
         margin-bottom: 25px;        
         @include Font-FamilyStyleWeight();        
@@ -21,14 +21,14 @@
         letter-spacing: 2.7px;
         color: $color-text;
     }
-    .first-title__subtitle {        
+    &__subtitle {        
         @include Font-FamilyStyleWeight();
         font-size: 16px;
         line-height: 18px;
         text-align: center;
         color: $color-text;
     }
-    .first-title__button {
+    &__button {
         margin-top: 25px;
         margin-bottom: 80px;
         padding: 10px 25px;

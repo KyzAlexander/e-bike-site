@@ -10,7 +10,7 @@ $color-text: #FBF7F3;
     background-size: cover;   
     background-position: bottom;
 
-    .second-title__title {
+    &__title {
         margin-top: 80px;
         margin-bottom: 0;    
         padding-right: 50px;        
@@ -22,14 +22,14 @@ $color-text: #FBF7F3;
         color: $color-text;
     }
 
-    .second-title__subtitle {
+    &__subtitle {
         padding-right: 50px;
         padding-bottom: 570px;        
         @include Font-FamilyStyleWeight(); 
         font-size: 29px;
         line-height: 28px;
         text-align: right;
-        color: $ColorText;
+        color: $colorText;
     }
 }
 

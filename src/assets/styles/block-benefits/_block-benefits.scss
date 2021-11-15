@@ -8,23 +8,23 @@
     align-items: flex-start;
     margin-top: 55px;
 
-    .block-benefits__item { 
+    &__item { 
         display: flex;
         flex-direction: column;
         align-items: flex-start; 
         justify-content: center;  
         
-        .item__title {
+        &__title {
             @include Font-FamilyStyleWeight();
             font-size: 30px;
             line-height: 36px;
             color: $colot-item-title;
             margin-bottom: 10px;    
         }
-        .item__img {
+        &__img {
             max-width: 320px;    
         }
-        .item__subtitle {
+        &__subtitle {
             @include Font-FamilyStyleWeight();
             font-size: 20px;
             line-height: 23px;
