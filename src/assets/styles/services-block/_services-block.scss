@@ -10,7 +10,7 @@
     background: url("../images/background-services-block.jpg") no-repeat;
     background-size: cover;
 
-    &__title {
+    .services-block__title {
         margin-top: 190px;
         margin-left: 180px;
         margin-bottom: 0;
@@ -20,7 +20,7 @@
         letter-spacing: 2.7px;
         color: $color-title-subtitle;
     }
-    &__subtitle {
+    .services-block__subtitle {
         margin-top: 40px;
         margin-left: 180px;
         @include Font-FamilyStyleWeight();
@@ -28,21 +28,21 @@
         line-height: 22px;
         color: $color-subt;
     }
-    &__box-photo {
+    .services-block__box-photo {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;    
         margin-top: 175px;
         margin-left: 180px;
     
-        &__item {
+        .box-photo__item {
             margin-right: 65px;
         
-            &__img {
+            .box-photo__img {
                 max-width: 300px;    
                 margin-bottom: 80px;
             }
-            &__subtitle {
+            .box-photo__subtitle {
                 @include Font-FamilyStyleWeight();
                 font-size: 23px;
                 line-height: 27px;    

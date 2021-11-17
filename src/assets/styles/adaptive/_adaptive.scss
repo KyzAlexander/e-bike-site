@@ -12,12 +12,12 @@
     .second-title {        
         align-items: center;
         
-        &__title {        
+        .second-title__title {        
             font-size: 60px;
             line-height: 70px;
             padding: 0;        
         }
-        &__subtitle {
+        .second-title__subtitle {
             margin-top: 20px; 
             padding-right: 0;       
             font-size: 25px;
@@ -32,7 +32,7 @@
     .third-section {
         margin-top: 50px; 
         
-        &__box-one {
+        .third-section__box-one {
             display: flex;
             flex-direction: column;
             
@@ -52,11 +52,11 @@
            margin-top: 60px;
            margin-bottom: 60px;
     
-            &__title {        
+            .box-two__title {        
                 font-size: 60px;
                 line-height: 70px;
             }
-            &__img {
+            .box-two__img {
                 display: none;        
             }
         }
@@ -89,27 +89,27 @@
     .services-block {       
         align-items: center; 
         
-        &__title {
+        .services-block__title {
             margin-top: 80px;
             margin-left: 0px;    
             font-size: 60px;
             line-height: 70px;        
         }
-        &__subtitle {       
+        .services-block__subtitle {       
             margin-left: 0px;      
         }
-        &__box-photo {        
+        .services-block__box-photo {        
             flex-direction: column;        
             align-items: center;       
             margin-left: 0px;
     
-            &__item {
+            .box-photo__item {
                 margin-right: 0px;
             }
-            &__img {       
+            .box-photo__img {       
                 margin-bottom: 10px;
             }
-            &__subtitle {
+            .box-photo__subtitle {
                 margin-bottom: 40px;
             } 
         }
@@ -124,7 +124,7 @@
         margin-top: 60px;
         margin-bottom: 60px;
 
-        &__img {         
+        .footer__img {         
             display: none;   
         }
         .text__title {

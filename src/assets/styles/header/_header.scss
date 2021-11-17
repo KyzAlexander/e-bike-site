@@ -23,17 +23,17 @@ $color-hover: #49464F;
         border-radius: 9999px;
         @include FlexHeader();
 
-        &__item, &__button {   
+        .menu__item, .menu__button {   
             @include Font-FamilyStyleWeight();
             font-size: 16px;
             line-height: 19px;
             color: $color-text-menu;
             text-decoration: unset; 
         }
-        &__item:hover { /*подключается при наведении мышки*/
+        .menu__item:hover { /*подключается при наведении мышки*/
             color: $color-hover;
         }
-        &__button {
+        .menu__button {
             padding: 10px 25px;
             margin-top: 10px;
             margin-bottom: 10px;
